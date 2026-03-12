@@ -38,4 +38,4 @@ A lightweight VS Code extension designed to keep your codebase clean by detectin
 1. Open the project in VS Code.
 2. Compile the TypeScript:
    ```bash
-   npx esbuild src/extension.ts --bundle --outfile=dist/extension.js --external:vscode --format=cjs --platform=node
+   npm run compile
